@@ -1,0 +1,43 @@
+.home {
+  background: url(./assets/plufow-le-studio-ailrGVN0xNA-unsplash.jpg) no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+.home-content {
+  max-width: 700px;
+}
+.btn-custom {
+  background-color: #ff6f61;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: 600;
+}
+.btn-custom:hover {
+  background-color: #ff4c3b;
+}
+
+
+
+
+ .input {
+  margin-top: 0.8em;
+  background-color: rgba(255, 255, 255, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+ .input input {
+  border-color: transparent;
+  outline-color: transparent;
+}
+
+.input i{
+  margin-left: 8px;
+}
