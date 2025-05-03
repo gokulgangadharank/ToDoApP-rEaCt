@@ -10,7 +10,7 @@ function App() {
   };
 
   const getQuoteByDay = () => {
-    const day = new Date().getDay(); // 0 = Sunday, 1 = Monday, ..., 6 = Saturday
+    const day = new Date().getDay();
     const quotes = {
       0: "Sunday vibes: reset, recharge, and pretend Monday doesn't exist ☕😴",
       1: "Monday? More like Moan-day 😩📅",
